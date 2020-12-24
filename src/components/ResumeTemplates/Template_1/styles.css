@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+}
+.print-area{
+    width: 80%;
+    margin: 20px auto;
+    min-width: 1050px;
+}
+.content{
+    display: flex;
+}
+.left-area{
+    width: 30%;
+    background-color: white;
+    border-right: 1px solid gray;
+    text-align: center;
+    padding: 0px 20px;
+}
+.left-area .info{
+    margin: 20px auto;
+    margin-bottom: 50px;
+}
+.left-area .info .photo{
+    margin: 50px auto;
+
+}
+.left-area .info .photo img{    
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.left-area .info .text h1{
+    font-weight: normal;
+}
+.left-area .info .text p{
+    font-size: 15px;
+    color: gray;
+}
+
+.profile{
+    margin: 50px auto;
+}
+.profile h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+.profile p{
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 80%;
+    margin:20px auto;
+}
+.contact{
+    margin: 50px auto;
+}
+.contact .phone{
+    margin: 20px;
+}
+.contact .phone h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+.contact .phone p{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.contact .email{
+    margin: 20px;
+}
+.contact .email p{
+    font-size: 15px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.contact .home{
+    margin: 20px;
+}
+.contact .home p{
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+}
+.interests{
+    margin-top: 20px;
+}
+.interests h3{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.interests p{
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    margin:10px auto;
+    font-size: 12px;
+
+}
+.bars{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px 10px;
+    padding: 0 20px;
+}
+
+
+
+
+.right-area{
+    width: 70%;
+    background-color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+.about{
+    align-items: left;
+    margin:0 10px;
+    margin-top: 60px;
+}
+.about h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.about h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.about h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+h3.right:before {
+  background: none;
+}
+.about p{
+    text-align: justify;
+    margin: 20px 20px;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.education h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.education h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.education h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+h3.right:before {
+  background: none;
+}
+.education .main{
+    display: flex;
+    justify-content: left;
+    padding: 20px 100px;
+}
+.education .main .left-part{
+    font-weight: 600;
+}
+.education .main .left-part .first{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.education .main .left-part .second{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.education .main .left-part .third{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.education .main .right-part{
+    padding-left: 15px;
+}
+.education .main .right-part .first{
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.education .main .right-part h5{
+    margin-top: 10px;
+
+}
+.education .main .right-part p{
+    color: gray;
+    margin-bottom: 1px;
+}
+.education .main .right-part .second{
+    height: 100px;
+    text-align: left;
+}
+.education .main .right-part .third{
+    height: 100px;
+    text-align: left;
+
+}
+
+.first span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.second span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.third span{
+    position: relative;
+    top: -11px;
+    right: -20px;
+    font-size: 25px;
+}
+.language{
+    align-items: left;
+    margin:0 10px;
+}
+.language h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 90%;
+    margin-right: auto;
+}
+.language h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.language h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.language p{
+    text-align: justify;
+    margin: 20px 20px;
+    margin-right: 60px;
+    font-size: 15px;
+}
+.language .circles{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px auto;
+
+}
+.language .circle1 .loading{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    transform: rotate(-45deg);
+}
+.language .circle2 .loading{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-right: 5px solid black;
+    transform: rotate(-45deg);
+}
+.language .circle3 .loading{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    transform: rotate(-45deg);
+}
+.language .circle4 .loading{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: 5px solid white;
+    border-radius: 50%;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    transform: rotate(-45deg);
+}
+.language .circles .circle{
+    padding: 0;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+.facts{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.facts p{
+    margin: 0 20px;
+}
+.facts p span{
+    font-size: 19px;
+    margin-right: 5px;
+}
+.facts h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+}
+.facts h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.facts h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.employement{
+    padding-top: 20px;
+}
+.employement h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-right: auto;
+}
+.employement h3 span {
+  background: #fff;
+  margin: 0 15px;
+}
+.employement h3:after {
+  background: black;
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+.employement .main{
+    display: flex;
+    justify-content: left;
+    padding: 20px 100px;
+}
+.employement .main .left-part{
+    font-weight: 600;
+}
+.employement .main .left-part .first{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.employement .main .left-part .second{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.employement .main .left-part .third{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding-right: 15px;
+    border-right: 1px solid black;
+    margin-bottom: 2px;
+}
+.employement .main .right-part{
+    padding-left: 15px;
+}
+.employement .main .right-part .first{
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+.employement .main .right-part h5{
+    margin-top: 10px;
+}
+.employement .main .right-part p{
+    color: gray;
+    margin-bottom: 1px;
+}
+.employement .main .right-part .second{
+    height: 100px;
+    text-align: left;
+}
+.employement .main .right-part .third{
+    height: 100px;
+    text-align: left;
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(29, 182, 233);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: black;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
